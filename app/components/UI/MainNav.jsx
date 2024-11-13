@@ -27,12 +27,12 @@ export default function MainNav() {
 
         <div className="container m-auto flex flex-nowrap items-center">
 
-            <Link href='/' className="flex flex-col justify-center items-center h-full min-w-[250px] border-x border-[--grey-border] min-h-[75px] hover:bg-[--lightgrey-hover] transition-all duration-500">
+            <Link href='/' className="flex flex-col justify-center items-center h-full min-w-[250px] border-x border-[--grey-border] min-h-[75px] hover:bg-[--lightgrey-hover] transition-all duration-400">
                 <Image src={'/logos/metalcu-base-logo.svg'} width={200} height={100} className="" />
             </Link>
 
             <div className="flex flex-col items-center justify-center border-r border-[--grey-border]">
-                <button className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] min-h-[75px] min-w-[75px]">
+                <button className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] min-h-[75px] min-w-[75px] transition-all duration-400">
                     <RxHamburgerMenu className="w-6 h-6"/>
                 </button>
             </div>
@@ -40,20 +40,20 @@ export default function MainNav() {
             <div className="relative w-full">
                 <input 
                     type="text"
-                    className=" w-full focus:bg-none bg-transparent min-h-[75px] px-8 focus:outline-none border-r border-[--grey-border] placeholder-black"
+                    className=" w-full focus:bg-none bg-transparent min-h-[75px] px-8 focus:outline-none border-r border-[--grey-border] placeholder-neutral-500  transition-all duration-400"
                     placeholder="Keresés név, cikkszám, vagy tulajdonság alapján..."
                 />
                 <BsSearch className="absolute top-1/2 -translate-y-1/2 right-[30px] w-4 h-4"/>
             </div>
 
             <div className="flex flex-col items-center justify-center border-r border-[--grey-border]">
-                <button className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] min-h-[75px] min-w-[75px]">
+                <button className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] min-h-[75px] min-w-[75px] transition-all duration-400">
                     <BsPerson className="w-5 h-5"/>
                 </button>
             </div>
 
             <div className="flex flex-col items-center justify-center border-r border-[--grey-border]">
-                <button className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] min-h-[75px] min-w-[75px]">
+                <button className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] min-h-[75px] min-w-[75px] transition-all duration-400">
                     <BsCart2 className="w-5 h-5"/>
                 </button>
             </div>

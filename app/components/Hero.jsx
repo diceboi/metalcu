@@ -1,5 +1,4 @@
 import React from 'react'
-import Container from './UI/Container'
 import H1 from './UI/Typo/H1'
 import Image from 'next/image'
 import Smalltitle from './UI/Typo/Smalltitle'
@@ -7,7 +6,7 @@ import Mainbutton from './UI/Buttons/Mainbutton'
 
 export default function Hero() {
   return (
-    <section className="w-full px-4">
+    <section className="w-full">
         <div className='container m-auto border-x border-b border-dashed border-[--grey-border] '>
             <div className='flex flex-col lg:flex-row'>
 

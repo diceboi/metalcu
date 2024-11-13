@@ -11,7 +11,7 @@ import { BsPersonCheckFill, BsInboxesFill, BsGlobeCentralSouthAsia ,BsClockFill 
 
 export default function Elonyok() {
   return (
-    <section className="w-full px-4">
+    <section className="w-full">
             <div className='container m-auto border-x border-b border-[--grey-border] '>
                 <div className='grid grid-cols-2 lg:grid-cols-4'>
 
