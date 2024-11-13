@@ -1,7 +1,43 @@
 import { Inter } from 'next/font/google'
 import './globals.css'
+import localFont from 'next/font/local';
+import MainNav from './components/UI/MainNav';
+import Footer from './components/UI/Footer';
 
-const inter = Inter({ subsets: ['latin'] })
+const NeueKaine = localFont({
+  src: [
+    {
+      path: '../public/fonts/NeueKaine-Regular.ttf',
+      weight: '400',
+      style: 'regular',
+    },
+    {
+      path: '../public/fonts/NeueKaine-Medium.ttf',
+      weight: '500',
+      style: 'medium',
+    },
+    {
+      path: '../public/fonts/NeueKaine-SemiBold.ttf',
+      weight: '600',
+      style: 'semibold',
+    },
+    {
+      path: '../public/fonts/NeueKaine-Bold.ttf',
+      weight: '700',
+      style: 'bold',
+    },
+    {
+      path: '../public/fonts/NeueKaine-ExtraBold.ttf',
+      weight: '800',
+      style: 'extrabold',
+    },
+    {
+      path: '../public/fonts/NeueKaine-Black.ttf',
+      weight: '900',
+      style: 'black',
+    },
+  ],
+})
 
 export const metadata = {
   title: 'Create Next App',
@@ -11,7 +47,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${NeueKaine.className} bg-[--lightgrey]`}>
+        <MainNav />
+        {children}
+        <Footer />
+      </body>
     </html>
   )
 }
