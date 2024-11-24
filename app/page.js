@@ -8,7 +8,7 @@ export default function Home() {
   return (
     <>
     <Hero />
-    <Elonyok />
+    {/*<Elonyok />*/}
     <Femek />
     <Szolgatltatasok />
     <Velemenyek />

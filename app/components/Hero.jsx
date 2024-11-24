@@ -15,8 +15,8 @@ export default function Hero() {
                 <H1>Fémkereskedelem<br></br> felső fokon</H1>
                 <Mainbutton>Bővebben</Mainbutton>
               </div>
-              <div className='relative w-1/2 min-h-[80vh]'>
-                <div className='absolute top-0 left-0 w-full min-h-[80vh] bg-[--green] z-10 mix-blend-color'></div>
+              <div className='relative w-1/2 min-h-[50vh]'>
+                <div className='absolute top-0 left-0 w-full min-h-[50vh] bg-[--green] z-10 mix-blend-color'></div>
                 <Image src='/image-kepek/metalcu.webp' fill style={{ objectFit: 'cover', objectPosition: 'center' }}/>
               </div>
 

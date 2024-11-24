@@ -31,7 +31,7 @@ export default function Szolgatltatasok() {
                 </div>
 
                 <Swiper 
-                className='col-span-2 py-20'
+                className='col-span-2 py-20 w-full'
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 spaceBetween={1}
                 slidesPerView={1.5}
@@ -41,23 +41,18 @@ export default function Szolgatltatasok() {
                 >
                     <SwiperSlide className='relative min-h-[50vh]'>
                         <div className='absolute top-0 left-0 w-full min-h-[50vh] bg-[--orange] z-10 mix-blend-color'></div>
-                        <Image src='/image-kepek/szolgaltatas1.webp' fill style={{ objectFit: 'cover', objectPosition: 'center' }}/>
-                        <H3 classname={'absolute top-8 left-8 z-20 text-white'}>Szolgáltatás 1</H3>
+                        <Image src='/image-kepek/feluletkezeles.webp' fill style={{ objectFit: 'cover', objectPosition: 'center' }}/>
+                        <H3 classname={'absolute top-8 left-8 z-20 text-white'}>Felületkezelés</H3>
                     </SwiperSlide>
                     <SwiperSlide className='relative min-h-[50vh]'>
                         <div className='absolute top-0 left-0 w-full min-h-[50vh] bg-[--green] z-10 mix-blend-color'></div>
-                        <Image src='/image-kepek/szolgaltatas2.webp' fill style={{ objectFit: 'cover', objectPosition: 'center' }}/>
-                        <H3 classname={'absolute top-8 left-8 z-20 text-white'}>Szolgáltatás 2</H3>
+                        <Image src='/image-kepek/szallitas.webp' fill style={{ objectFit: 'cover', objectPosition: 'center' }}/>
+                        <H3 classname={'absolute top-8 left-8 z-20 text-white'}>Szállítás</H3>
                     </SwiperSlide>
                     <SwiperSlide className='relative min-h-[50vh]'>
                         <div className='absolute top-0 left-0 w-full min-h-[50vh] bg-[--grey] z-10 mix-blend-color'></div>
                         <Image src='/image-kepek/szolgaltatas3.webp' fill style={{ objectFit: 'cover', objectPosition: 'center' }}/>
-                        <H3 classname={'absolute top-8 left-8 z-20 text-white'}>Szolgáltatás 3</H3>
-                    </SwiperSlide>
-                    <SwiperSlide className='relative min-h-[50vh]'>
-                        <div className='absolute top-0 left-0 w-full min-h-[50vh] bg-[--orange] z-10 mix-blend-color'></div>
-                        <Image src='/image-kepek/szolgaltatas4.webp' fill style={{ objectFit: 'cover', objectPosition: 'center' }}/>
-                        <H3 classname={'absolute top-8 left-8 z-20 text-white'}>Szolgáltatás 4</H3>
+                        <H3 classname={'absolute top-8 left-8 z-20 text-white'}>Fóliázás</H3>
                     </SwiperSlide>
                 </Swiper>
                 

@@ -5,6 +5,7 @@ import Label from "./Typo/Label"
 import Link from "next/link"
 import { TbArrowBigRightLines, TbAnchor, TbPhone, TbMail, TbUsersGroup } from "react-icons/tb";
 import { MdOutlinePayment } from "react-icons/md";
+import GoogleMaps from "../GoogleMaps"
 
 export default function Footer() {
   return (
@@ -13,7 +14,12 @@ export default function Footer() {
             <div className="grid lg:grid-cols-4 grid-cols-1 lg:gap-16 gap-8">
                 <div className="flex flex-col gap-4">
                     <Image src="/logos/metalcu-black-logo.svg" width={200} height={100} alt="logo"/>
+                    <div className="w-full h-[200px] mt-8">
+                        <GoogleMaps />
+                    </div>
+                    <Par>2051 Biatorbágy Rozália Park 11.</Par>
                     <Label classname={" opacity-40"}>MetAlCu 2024 @ Minden jog fenntartva</Label>
+                    
                 </div>
                 <div className="flex flex-col gap-8">
                     <div className="flex flex-nowrap gap-2 items-center">
