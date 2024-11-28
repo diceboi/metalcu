@@ -14,12 +14,12 @@ import { motion } from "framer-motion"
 
 export default function Velemenyek() {
   return (
-    <section className="relative w-full">
-        <div className='container m-auto border-x border-b border-dashed border-[--grey-border] '>
-            <div className='grid grid-cols-3'>
+    <section className="relative w-full px-2">
+        <div className='container m-auto border-x border-b border-dashed border-[--grey-border] px-4'>
+            <div className='grid lg:grid-cols-3'>
             
-                <div className='col-span-1 lg:p-8 z-10 bg-[--lightgrey] min-h-[100vh] '>
-                    <div className='sticky top-32 flex flex-col gap-2'>
+                <div className='col-span-1 lg:p-8 z-10 bg-[--lightgrey] lg:min-h-[100vh] '>
+                    <div className='sticky lg:top-32 top-24 flex flex-col gap-2 py-8'>
                         <Smalltitle>Rólunk mondták</Smalltitle>
                         <H2>Vélemények</H2>    
                         <H3>Átlagosan 4,5</H3> 
@@ -36,7 +36,7 @@ export default function Velemenyek() {
 
                 <div className='flex flex-col col-span-2 w-full'>
 
-                    <div className='flex flex-col gap-2 p-4 border-b border-l border-[--grey-border]'>
+                    <div className='flex flex-col gap-2 p-4 border-b lg:border-l border-[--grey-border]'>
                         <div className='flex flex-nowrap gap-2 items-center'>
                             <Image src="/velemenyek/ambrus-zsuzsanna.webp" width={100} height={100} className='w-10 h-10 rounded-full'/>
                             <H3>Kiss Vera</H3>
@@ -52,7 +52,7 @@ export default function Velemenyek() {
                         <Par>Kiváló minőségű termékek és széles választék! Mindenféle fémet megtaláltam itt, amire szükségem volt a projektemhez. Csak ajánlani tudom!</Par>
                     </div>
 
-                    <div className='flex flex-col gap-2 p-4 border-b border-l border-[--grey-border]'>
+                    <div className='flex flex-col gap-2 p-4 border-b lg:border-l border-[--grey-border]'>
                         <div className='flex flex-nowrap gap-2 items-center'>
                             <Image src="/velemenyek/bencze-mariann.webp" width={100} height={100} className='w-10 h-10 rounded-full'/>
                             <H3>Horváth Mariann</H3>
@@ -67,7 +67,7 @@ export default function Velemenyek() {
                         <Par>A dolgozók nagyon segítőkészek, szakértelemmel válaszoltak minden kérdésemre, és segítettek a megfelelő anyag kiválasztásában. Örülök, hogy őket választottam.</Par>
                     </div>
 
-                    <div className='flex flex-col gap-2 p-4 border-b border-l border-[--grey-border]'>
+                    <div className='flex flex-col gap-2 p-4 border-b lg:border-l border-[--grey-border]'>
                         <div className='flex flex-nowrap gap-2 items-center'>
                             <Image src="/velemenyek/hoffmann-agoston.webp" width={100} height={100} className='w-10 h-10 rounded-full'/>
                             <H3>Nagy Béla</H3>
@@ -82,7 +82,7 @@ export default function Velemenyek() {
                         <Par>Nagyon jó ár-érték arány! Sok helyen nézelődtem, de végül itt találtam meg a legjobb ajánlatokat. Remek cég!</Par>
                     </div>
 
-                    <div className='flex flex-col gap-2 p-4 border-b border-l border-[--grey-border]'>
+                    <div className='flex flex-col gap-2 p-4 border-b lg:border-l border-[--grey-border]'>
                         <div className='flex flex-nowrap gap-2 items-center'>
                             <Image src="/velemenyek/kiss-imre.webp" width={100} height={100} className='w-10 h-10 rounded-full'/>
                             <H3>Béla Iván</H3>
@@ -97,7 +97,7 @@ export default function Velemenyek() {
                         <Par>Kedvező árak és megbízható szállítás. Külön öröm, hogy a személyzet is kedves és hozzáértő</Par>
                     </div>
 
-                    <div className='flex flex-col gap-2 p-4 border-b border-l border-[--grey-border]'>
+                    <div className='flex flex-col gap-2 p-4 border-b lg:border-l border-[--grey-border]'>
                         <div className='flex flex-nowrap gap-2 items-center'>
                             <Image src="/velemenyek/szabo-domokos.webp" width={100} height={100} className='w-10 h-10 rounded-full'/>
                             <H3>Tóth Péter</H3>

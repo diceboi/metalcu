@@ -20,9 +20,9 @@ import 'swiper/css/scrollbar';
 
 export default function Szolgatltatasok() {
   return (
-    <section className="w-full">
-        <div className='container m-auto border-x border-b border-dashed border-[--grey-border] '>
-            <div className='grid grid-cols-3 items-center overflow-hidden py-16'>
+    <section className="w-full px-2">
+        <div className='container m-auto border-x border-b border-dashed border-[--grey-border] px-4'>
+            <div className='grid lg:grid-cols-3 lg:gap-0 gap-8 items-center overflow-hidden py-16'>
             
                 <div className='col-span-1 flex flex-col gap-8 justify-center lg:p-8 z-10 bg-[--lightgrey]'>
                     <Smalltitle>Hatalmas választék</Smalltitle>

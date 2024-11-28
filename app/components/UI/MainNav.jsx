@@ -56,7 +56,7 @@ export default function MainNav() {
         <div className="flex flex-nowrap">
             <Link
             href="/"
-            className="flex flex-col justify-center items-center h-full lg:min-w-[250px] min-w-[100px] border-x border-[--grey-border] min-h-[75px] hover:bg-[--lightgrey-hover] transition-all duration-400"
+            className="flex flex-col justify-center items-center px-4 h-full lg:min-w-[250px] min-w-[100px] border-x border-[--grey-border] min-h-[75px] hover:bg-[--lightgrey-hover] transition-all duration-400"
             >
             <Image
                 src={"/logos/metalcu-base-logo.svg"}
