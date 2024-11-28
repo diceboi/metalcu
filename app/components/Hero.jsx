@@ -10,7 +10,7 @@ import { motion } from 'framer-motion'
 export default function Hero() {
   return (
     <section className="w-full px-2">
-        <div className='relative container m-auto border-x border-r border-l border-t border-[--grey-border] border-dashed lg:mt-16 mt-8 shadow-special-1 rounded-t-xl px-4'>
+        <div className='relative container m-auto border-x border-r border-l border-t border-[--grey-border] border-dashed lg:mt-16 mt-8 shadow-special-1 rounded-t-xl lg:px-0 px-4'>
             <div className='flex flex-col justify-center lg:flex-row'>
 
               <div className='flex flex-col items-center gap-8 justify-center absolute left-1/2 -translate-x-1/2 top-20'>

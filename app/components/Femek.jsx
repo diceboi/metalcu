@@ -13,12 +13,12 @@ import { motion } from "framer-motion"
 export default function Femek() {
   return (
     <section className="w-full px-2">
-        <div className='container m-auto border-x border-b border-dashed border-[--grey-border] relative px-4'>
+        <div className='container m-auto border-x border-b border-dashed border-[--grey-border] relative lg:px-0 px-4'>
             <div className='absolute w-full h-[200px] top-0 left-0 bg-[--lightgrey]'></div>
             <div className='flex flex-col items-center gap-8 py-16'>
-            <div className='flex lg:flex-row flex-col gap-4 items-baseline z-10'>
+            <div className='flex lg:flex-row flex-col gap-8 items-baseline z-10'>
                 <H2>Fémlemez típusaink</H2> 
-                <H3>Hatalmas választékkal, és raktárkészlettel várunk.</H3>
+                <H3 classname={"opacity-50"}>Hatalmas választékkal, és raktárkészlettel várunk.</H3>
                    
             </div>
             
