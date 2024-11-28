@@ -3,6 +3,7 @@ import './globals.css'
 import localFont from 'next/font/local';
 import MainNav from './components/UI/MainNav';
 import Footer from './components/UI/Footer';
+import ContextProvider from './Context';
 
 const NeueKaine = localFont({
   src: [
@@ -48,9 +49,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={`${NeueKaine.className} bg-[--lightgrey]`}>
+      <ContextProvider>
         <MainNav />
         {children}
         <Footer />
+      </ContextProvider>
       </body>
     </html>
   )

@@ -16,9 +16,9 @@ export default function Velemenyek() {
   return (
     <section className="relative w-full">
         <div className='container m-auto border-x border-b border-dashed border-[--grey-border] '>
-            <div className='flex lg:flex-row flex-col'>
+            <div className='grid grid-cols-3'>
             
-                <div className='lg:p-8 z-10 bg-[--lightgrey] min-h-[100vh] '>
+                <div className='col-span-1 lg:p-8 z-10 bg-[--lightgrey] min-h-[100vh] '>
                     <div className='sticky top-32 flex flex-col gap-2'>
                         <Smalltitle>Rólunk mondták</Smalltitle>
                         <H2>Vélemények</H2>    
@@ -34,7 +34,7 @@ export default function Velemenyek() {
                     
                 </div>
 
-                <div className='flex flex-col w-full'>
+                <div className='flex flex-col col-span-2 w-full'>
 
                     <div className='flex flex-col gap-2 p-4 border-b border-l border-[--grey-border]'>
                         <div className='flex flex-nowrap gap-2 items-center'>
