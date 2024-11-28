@@ -56,13 +56,13 @@ export default function MainNav() {
         <div className="flex flex-nowrap">
             <Link
             href="/"
-            className="flex flex-col justify-center items-center h-full min-w-[250px] border-x border-[--grey-border] min-h-[75px] hover:bg-[--lightgrey-hover] transition-all duration-400"
+            className="flex flex-col justify-center items-center h-full lg:min-w-[250px] min-w-[100px] border-x border-[--grey-border] min-h-[75px] hover:bg-[--lightgrey-hover] transition-all duration-400"
             >
             <Image
                 src={"/logos/metalcu-base-logo.svg"}
                 width={200}
                 height={100}
-                className=""
+                className="lg:w-[250px] w-[100px]"
             />
             </Link>
 
@@ -72,19 +72,19 @@ export default function MainNav() {
             </button>
             </div>  
 
-            <div className="flex flex-col items-center justify-center">
+            <div className="lg:flex hidden flex-col items-center justify-center">
             <Link href="/femlemezek" className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] min-h-[75px] min-w-[75px] px-4 transition-all duration-400">
                 Fémlemezek
             </Link>
             </div>  
 
-            <div className="flex flex-col items-center justify-center">
+            <div className="lg:flex hidden flex-col items-center justify-center">
             <Link href="/szolgaltatasok" className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] min-h-[75px] min-w-[75px] px-4 transition-all duration-400">
                 Szolgáltatások
             </Link>
             </div>
 
-            <div className="flex flex-col items-center justify-center">
+            <div className="lg:flex hidden flex-col items-center justify-center">
             <Link href="/kapcsolat" className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] min-h-[75px] min-w-[75px] px-4 transition-all duration-400">
                 Kapcsolat
             </Link>

@@ -14,14 +14,18 @@ export default function Femek() {
   return (
     <section className="w-full">
         <div className='container m-auto border-x border-b border-dashed border-[--grey-border] '>
-            <div className='flex flex-col lg:flex-row'>
-
-              
+            <div className='flex flex-col items-center gap-8 py-16'>
+            <div className='flex gap-4 items-baseline'>
+                <H2>Fémlemez típusaink</H2> 
+                <H3>Hatalmas választékkal, és raktárkészlettel várunk.</H3>
+                   
+            </div>
+            
               <div className='w-full min-h-[80vh]'>
-                <div className='grid lg:grid-cols-5 grid-cols-1 overflow-hidden'>
+                <div className='grid lg:grid-cols-4 grid-cols-1 gap-4 overflow-hidden'>
 
                     <motion.div 
-                        className='relative col-span-1 h-[80vh]'
+                        className='relative col-span-1 h-[50vh]'
                         initial={{ width: "100%" }}
                         whileHover={{ width: "110%" }}
                         transition={{ duration: 0.2, type: "ease-out", bounce: 0.4 }}
@@ -33,7 +37,7 @@ export default function Femek() {
                         </Link>
                     </motion.div>
                     <motion.div 
-                        className='relative col-span-1 h-[80vh]'
+                        className='relative col-span-1 h-[50vh]'
                         initial={{ width: "100%" }}
                         whileHover={{ width: "110%" }}
                         transition={{ duration: 0.2, type: "ease-out", bounce: 0.4 }}
@@ -45,7 +49,7 @@ export default function Femek() {
                         </Link>
                     </motion.div>
                     <motion.div 
-                        className='relative col-span-1 h-[80vh] overflow-hidden'
+                        className='relative col-span-1 h-[50vh] overflow-hidden'
                         initial={{ width: "100%" }}
                         whileHover={{ width: "110%" }}
                         transition={{ duration: 0.2, type: "ease-out", bounce: 0.4 }}
@@ -57,7 +61,7 @@ export default function Femek() {
                         </Link>
                     </motion.div>
                     <motion.div 
-                        className='relative col-span-1 h-[80vh] overflow-hidden'
+                        className='relative col-span-1 h-[50vh] overflow-hidden'
                         initial={{ width: "100%" }}
                         whileHover={{ width: "110%" }}
                         transition={{ duration: 0.2, type: "ease-out", bounce: 0.4 }}
@@ -68,12 +72,6 @@ export default function Femek() {
                         <H3 classname={'absolute bottom-8 left-0 z-20 text-black p-4 bg-[--lightgrey]'}>Sárgaréz</H3>
                         </Link>
                     </motion.div>
-
-                    <div className='flex flex-col gap-8 justify-center col-span-1 lg:p-8 z-10 bg-[--lightgrey]'>
-                        <Smalltitle>Hatalmas választék</Smalltitle>
-                        <H2>Fémlemez típusaink</H2>
-                        <Mainbutton>Bővebben</Mainbutton>
-                    </div>
                 </div>
               </div>
 
