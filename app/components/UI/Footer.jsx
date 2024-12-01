@@ -9,7 +9,7 @@ import GoogleMaps from "../GoogleMaps"
 
 export default function Footer() {
   return (
-    <section className="w-full py-16 bg-[--grey]">
+    <section className="w-full py-16 mt-16 bg-[--grey]">
         <div className="container m-auto px-4">
             <div className="grid lg:grid-cols-4 grid-cols-1 lg:gap-16 gap-8">
                 <div className="flex flex-col gap-4">

@@ -1,7 +1,12 @@
 import React from 'react'
+import MainHero from '../components/UI/MainHero'
+import FemlemezekInner from '../components/FemlemezekInner'
 
-export default function Femlemezekpage() {
+export default function FemlemezekPage() {
   return (
-    <div>page</div>
+    <>
+    <MainHero title={"Fémlemezek"} subtitle={"Válogass tetszés szerint"} image={"/femlemezek-hero.webp"}/>
+    <FemlemezekInner />
+    </>
   )
 }

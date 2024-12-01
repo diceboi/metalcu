@@ -21,12 +21,12 @@ import 'swiper/css/scrollbar';
 
 export default function Szolgatltatasok() {
   return (
-    <section className="w-full px-2">
-        <div className='container m-auto border-x border-b border-dashed border-[--grey-border] lg:px-0 px-4'>
+    <section className="w-full">
+        <div className='container m-auto lg:px-0 px-4'>
             <div className='grid lg:grid-cols-3 lg:gap-0 gap-8 items-center overflow-hidden py-16'>
             
                 <div className='col-span-1 flex flex-col gap-4 justify-center lg:p-8 z-10 bg-[--lightgrey]'>
-                    <Smalltitle>Hatalmas választék</Smalltitle>
+                    <Smalltitle>Állunk rendelkezésedre</Smalltitle>
                     <H2>Szolgáltatások</H2>
                     <Mainbutton>Összes szolgáltatás</Mainbutton>
                 </div>
@@ -34,7 +34,7 @@ export default function Szolgatltatasok() {
                 <Swiper 
                 className='col-span-2 py-20 w-full'
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={1}
+                spaceBetween={16}
                 slidesPerView={1.5}
                 
                 onSwiper={(swiper) => console.log(swiper)}

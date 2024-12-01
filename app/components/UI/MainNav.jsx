@@ -56,7 +56,7 @@ export default function MainNav() {
         <div className="flex flex-nowrap">
             <Link
             href="/"
-            className="flex flex-col justify-center items-center px-4 h-full lg:min-w-[250px] min-w-[100px] border-x border-[--grey-border] min-h-[75px] hover:bg-[--lightgrey-hover] transition-all duration-400"
+            className="flex flex-col justify-center items-center px-4 h-full lg:min-w-[250px] min-w-[100px] lg:border-x border-r border-[--grey-border] lg:min-h-[75px] min-h-[50px] hover:bg-[--lightgrey-hover] transition-all duration-400"
             >
             <Image
                 src={"/logos/metalcu-base-logo.svg"}
@@ -67,7 +67,7 @@ export default function MainNav() {
             </Link>
 
             <div className="flex flex-col items-center justify-center border-r border-[--grey-border]">
-            <button  onClick={toggleSideMenu} className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] min-h-[75px] min-w-[75px] transition-all duration-400">
+            <button  onClick={toggleSideMenu} className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] lg:min-h-[75px] min-h-[50px] lg:min-w-[75px] min-w-[50px] transition-all duration-400">
                 <RxHamburgerMenu className="w-6 h-6" />
             </button>
             </div>  
@@ -103,13 +103,13 @@ export default function MainNav() {
 
         <div className="flex flex-nowrap self-end">
           <div className="flex flex-col items-center justify-center border-x border-[--grey-border]">
-            <button className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] min-h-[75px] min-w-[75px] transition-all duration-400">
+            <button className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] lg:min-h-[75px] min-h-[50px] lg:min-w-[75px] min-w-[50px] transition-all duration-400">
               <BsPerson className="w-5 h-5" />
             </button>
           </div>
 
-          <div className="flex flex-col items-center justify-center border-r border-[--grey-border]">
-            <button className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] min-h-[75px] min-w-[75px] transition-all duration-400">
+          <div className="flex flex-col items-center justify-center border-r-0 lg:border-r border-[--grey-border]">
+            <button className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] lg:min-h-[75px] min-h-[50px] lg:min-w-[75px] min-w-[50px] transition-all duration-400">
               <BsCart2 className="w-5 h-5" />
             </button>
           </div>
