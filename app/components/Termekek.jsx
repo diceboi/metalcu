@@ -10,7 +10,7 @@ import Smalltitle from "./UI/Typo/Smalltitle";
 import Mainbutton from "./UI/Buttons/Mainbutton";
 import { motion } from "framer-motion";
 
-export default function Szolgatltatasok() {
+export default function Termekek() {
   const imageVariants = {
     initial: { scale: 1 },
     hover: { scale: 1.1 },
@@ -22,9 +22,9 @@ export default function Szolgatltatasok() {
         <div className="absolute w-full h-[200px] top-0 left-0 bg-[--lightgrey]"></div>
         <div className="flex flex-col items-center gap-8 py-16">
           <div className="flex lg:flex-row flex-col gap-8 items-baseline z-10">
-            <H2>Szolgáltatások</H2>
+            <H2>Termékek</H2>
             <H3 classname={"opacity-50"}>
-              Állunk rendelkezésedre.
+              Acél és színesfém termékek széles választékban.
             </H3>
           </div>
 
@@ -36,14 +36,14 @@ export default function Szolgatltatasok() {
                 whileHover="hover"
                 transition={{ duration: 0.2, type: "ease-out", bounce: 0.4 }}
               >
-                <Link href="/szolgaltatasok/darabolas">
+                <Link href="/termekek/acel">
                   <div className="absolute top-0 left-0 w-full min-h-[80vh] bg-[--grey] z-10 mix-blend-color"></div>
                   <motion.div
                     className="absolute top-0 left-0 w-full h-full"
                     variants={imageVariants}
                   >
                     <Image
-                      src="/image-kepek/darabolas.webp"
+                      src="/image-kepek/steel.webp"
                       fill
                       style={{ objectFit: "cover", objectPosition: "center" }}
                     />
@@ -53,7 +53,7 @@ export default function Szolgatltatasok() {
                       "absolute bottom-8 left-0 z-20 text-black p-4 bg-[--lightgrey]"
                     }
                   >
-                    Darabolás
+                    Acél
                   </H3>
                 </Link>
               </motion.div>
@@ -64,14 +64,42 @@ export default function Szolgatltatasok() {
                 whileHover="hover"
                 transition={{ duration: 0.2, type: "ease-out", bounce: 0.4 }}
               >
-                <Link href="/szolgaltatasok/foliazas">
+                <Link href="/termekek/aluminium">
+                  <div className="absolute top-0 left-0 w-full min-h-[80vh] bg-[--grey] z-10 mix-blend-color"></div>
+                  <motion.div
+                    className="absolute top-0 left-0 w-full h-full"
+                    variants={imageVariants}
+                  >
+                    <Image
+                      src="/image-kepek/aluminium.webp"
+                      fill
+                      style={{ objectFit: "cover", objectPosition: "center" }}
+                    />
+                  </motion.div>
+                  <H3
+                    classname={
+                      "absolute bottom-8 left-0 z-20 text-black p-4 bg-[--lightgrey]"
+                    }
+                  >
+                    Aluminium
+                  </H3>
+                </Link>
+              </motion.div>
+
+              <motion.div
+                className="relative col-span-1 h-[50vh] overflow-hidden"
+                initial="initial"
+                whileHover="hover"
+                transition={{ duration: 0.2, type: "ease-out", bounce: 0.4 }}
+              >
+                <Link href="/termekek/vorosrez">
                   <div className="absolute top-0 left-0 w-full min-h-[80vh] bg-[--orange] z-10 mix-blend-color"></div>
                   <motion.div
                     className="absolute top-0 left-0 w-full h-full"
                     variants={imageVariants}
                   >
                     <Image
-                      src="/image-kepek/foliazas.webp"
+                      src="/image-kepek/copper.webp"
                       fill
                       style={{ objectFit: "cover", objectPosition: "center" }}
                     />
@@ -81,7 +109,7 @@ export default function Szolgatltatasok() {
                       "absolute bottom-8 left-0 z-20 text-black p-4 bg-[--lightgrey]"
                     }
                   >
-                    Fóliázás
+                    Vörösréz
                   </H3>
                 </Link>
               </motion.div>
@@ -92,42 +120,14 @@ export default function Szolgatltatasok() {
                 whileHover="hover"
                 transition={{ duration: 0.2, type: "ease-out", bounce: 0.4 }}
               >
-                <Link href="/szolgaltatasok/feluletkezeles">
-                  <div className="absolute top-0 left-0 w-full min-h-[80vh] bg-[--grey] z-10 mix-blend-color"></div>
-                  <motion.div
-                    className="absolute top-0 left-0 w-full h-full"
-                    variants={imageVariants}
-                  >
-                    <Image
-                      src="/image-kepek/feluletkezeles.webp"
-                      fill
-                      style={{ objectFit: "cover", objectPosition: "center" }}
-                    />
-                  </motion.div>
-                  <H3
-                    classname={
-                      "absolute bottom-8 left-0 z-20 text-black p-4 bg-[--lightgrey]"
-                    }
-                  >
-                    Felületkezelés
-                  </H3>
-                </Link>
-              </motion.div>
-
-              <motion.div
-                className="relative col-span-1 h-[50vh] overflow-hidden"
-                initial="initial"
-                whileHover="hover"
-                transition={{ duration: 0.2, type: "ease-out", bounce: 0.4 }}
-              >
-                <Link href="/szolgaltatasok/logisztika">
+                <Link href="/termekek/sargarez">
                   <div className="absolute top-0 left-0 w-full min-h-[80vh] bg-[--green] z-10 mix-blend-color"></div>
                   <motion.div
                     className="absolute top-0 left-0 w-full h-full"
                     variants={imageVariants}
                   >
                     <Image
-                      src="/image-kepek/szallitas.webp"
+                      src="/image-kepek/sargarez.webp"
                       fill
                       style={{ objectFit: "cover", objectPosition: "center" }}
                     />
@@ -137,7 +137,7 @@ export default function Szolgatltatasok() {
                       "absolute bottom-8 left-0 z-20 text-black p-4 bg-[--lightgrey]"
                     }
                   >
-                    Logisztika
+                    Sárgaréz
                   </H3>
                 </Link>
               </motion.div>
