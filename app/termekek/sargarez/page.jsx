@@ -1,7 +1,12 @@
 import React from 'react'
+import MainHero from '@/app/components/UI/MainHero'
+import SargarezInner from '@/app/components/SargarezInner'
 
-export default function Sargarezpage() {
+export default function SargarezPage() {
   return (
-    <div>page</div>
+    <>
+    <MainHero title={"Sárgaréz"} subtitle={""} image={"/sargarez-hero.webp"}/>
+    <SargarezInner />
+    </>
   )
 }

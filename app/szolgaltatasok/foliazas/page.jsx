@@ -5,7 +5,7 @@ import FoliazasInner from '@/app/components/FoliazasInner'
 export default function FoliazasPage() {
   return (
     <>
-    <MainHero title={"Fóliázás"} subtitle={"Fóliázás"} image={"/szallitas-hero.webp"}/>
+    <MainHero title={"Fóliázás"} subtitle={"Fóliázás"} image={"/foliazas-hero.webp"}/>
     <FoliazasInner />
     </>
   )

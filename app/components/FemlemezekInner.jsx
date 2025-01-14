@@ -19,7 +19,7 @@ export default function FemlemezekInner() {
         <div className='container m-auto border-x border-b border-dashed border-[--grey-border] relative lg:px-0 px-4'>
             <div className='flex flex-col gap-8 py-16 lg:px-8'>
             <div className='flex lg:flex-row flex-col justify-start gap-8 items-baseline z-10 border-b border-[--grey-border]'>
-                <H2>Fémlemez típusaink</H2>                   
+                <H2>Termékeink</H2>                   
             </div>
             <div className='grid lg:grid-cols-4 grid-cols-2 gap-4'>
                 <ProductTile />
