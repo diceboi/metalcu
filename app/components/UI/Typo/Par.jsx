@@ -1,6 +1,6 @@
 export default function Par({classname, children}) {
     return (
-      <p className={`text-md font-medium tracking-wide ${classname}`}>
+      <p className={`lg:text-md text-sm font-medium tracking-wide ${classname}`}>
           {children}
       </p>
     )
