@@ -9,6 +9,7 @@ import Link from "next/link";
 import Smalltitle from "./UI/Typo/Smalltitle";
 import Mainbutton from "./UI/Buttons/Mainbutton";
 import ProductTile from "./UI/ProductTile";
+import AjanlatkeresButton from "./UI/Buttons/AjanlatkeresButton";
 
 import { motion } from "framer-motion";
 import Par from "./UI/Typo/Par";
@@ -48,6 +49,7 @@ export default function VorosrezTermekek() {
                         <b><b>Szalag méretek:</b></b>
                         <br></br>0,1 mm - 3,0 mm / Általában 300-350 mm illetve egyedi szélességek is rendelhetők!
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Vörösréz lemez, LEMEZVÁGAT, szalag"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -74,6 +76,7 @@ export default function VorosrezTermekek() {
                         <b><b>Tábla méretek:</b></b>
                         <br></br>Általában 1020x2020 mm vagy a járatos, de ettől eltérő méretek is előfordulnak, illetve vágatok is rendelhetők!
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Vastag lemezek"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -100,6 +103,7 @@ export default function VorosrezTermekek() {
                         <b><b>Szálhossz:</b></b>
                         <br></br>Általában 4000 mm a járatos, de ettől eltérő méretek is előfordulnak, illetve vágatok is rendelhetők!
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Vörösréz rúd (kör)"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -126,6 +130,7 @@ export default function VorosrezTermekek() {
                         <b><b>Szálhossz:</b></b>
                         <br></br>Általában 4000 mm a járatos, de ettől eltérő méretek is előfordulnak, illetve vágatok is rendelhetők!
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Vörösréz lapos"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -152,6 +157,7 @@ export default function VorosrezTermekek() {
                         <b><b>Szálhossz:</b></b>
                         <br></br>Általában 4000 mm a járatos, de ettől eltérő méretek is előfordulnak, illetve vágatok is rendelhetők!
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Vörösréz rúd (négyzet)"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -178,6 +184,7 @@ export default function VorosrezTermekek() {
                         <b><b>Szálhossz:</b></b>
                         <br></br>Általában 4000 mm a járatos, de ettől eltérő méretek is előfordulnak, illetve vágatok is rendelhetők!
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Vörösréz rúd (hatszög)"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -208,6 +215,7 @@ export default function VorosrezTermekek() {
                         <b><b>Tekercs:</b></b>
                         <br></br>Illetve egyes méretek 15, 25, 30 m-es tekercsben is rendelhetők.
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Vörösréz cső"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -238,6 +246,7 @@ export default function VorosrezTermekek() {
                         <b><b>Méretek:</b></b>
                         <br></br>Kérjen ajánlatot munkatársainktól.
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Bronz rudak, perselyek"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 

@@ -9,6 +9,7 @@ import Link from "next/link";
 import Smalltitle from "./UI/Typo/Smalltitle";
 import Mainbutton from "./UI/Buttons/Mainbutton";
 import ProductTile from "./UI/ProductTile";
+import AjanlatkeresButton from "./UI/Buttons/AjanlatkeresButton";
 
 import { motion } from "framer-motion";
 import Par from "./UI/Typo/Par";
@@ -89,6 +90,7 @@ export default function AluminiumTermekek() {
                     <br></br>max. 2000mm szélességig. Kérjen ajánlatot
                     munkatársainktól.
                   </Par>
+                  <AjanlatkeresButton classname={'self-start'} link={"Hidegen hengerelt lemezek, szalagok"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -138,6 +140,7 @@ export default function AluminiumTermekek() {
                     <br></br> max. 2000mm szélességig; max. 12000mm hosszúságig;
                     Kérjen ajánlatot munkatársainktól.
                   </Par>
+                  <AjanlatkeresButton classname={'self-start'} link={"Melegen hengerelt lemezek, szalagok"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -202,6 +205,7 @@ export default function AluminiumTermekek() {
                     <br></br>max. 2000mm szélességig. Kérjen ajánlatot
                     munkatársainktól.
                   </Par>
+                  <AjanlatkeresButton classname={'self-start'} link={"Mintás lemezek"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -241,6 +245,7 @@ export default function AluminiumTermekek() {
                     </b>
                     <br></br>Kérjen ajánlatot munkatársainktól.
                   </Par>
+                  <AjanlatkeresButton classname={'self-start'} link={"Stukko lemezek"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -339,6 +344,7 @@ export default function AluminiumTermekek() {
                     <br></br>Szinte bármilyen méret és egyedi lyukasztás
                     rendelhető (megfelelő mennyiség mellett).
                   </Par>
+                  <AjanlatkeresButton classname={'self-start'} link={"Lyukasztott lemezek"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -381,6 +387,7 @@ export default function AluminiumTermekek() {
                     szálhosszban és minőségben is vállaljuk szálanyagok
                     gyártását.
                   </Par>
+                  <AjanlatkeresButton classname={'self-start'} link={"Zártszelvények, csövek, L, T, U, Z profilok"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -422,6 +429,7 @@ export default function AluminiumTermekek() {
                     szálhosszban és minőségben is vállaljuk szálanyagok
                     gyártását.
                   </Par>
+                  <AjanlatkeresButton classname={'self-start'} link={"Rudak (lapos, négyzet, kör, hatszög)"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -455,6 +463,7 @@ export default function AluminiumTermekek() {
                     </b>
                     <br></br>Kérjen ajánlatot munkatársainktól.
                   </Par>
+                  <AjanlatkeresButton classname={'self-start'} link={"Alakos (speciális) profilok"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
             </div>

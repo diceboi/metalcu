@@ -9,6 +9,7 @@ import Link from "next/link";
 import Smalltitle from "./UI/Typo/Smalltitle";
 import Mainbutton from "./UI/Buttons/Mainbutton";
 import ProductTile from "./UI/ProductTile";
+import AjanlatkeresButton from "./UI/Buttons/AjanlatkeresButton";
 
 import { motion } from "framer-motion";
 import Par from "./UI/Typo/Par";
@@ -48,6 +49,7 @@ export default function SargarezTermekek() {
                         <b><b>Tábla méretek:</b></b>
                         <br></br>Általában 1000x2000 mm a járatos, de ettől eltérő méretek is előfordulnak, illetve vágatokat is rendelhetők!
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Sárgaréz lemezek"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -74,6 +76,7 @@ export default function SargarezTermekek() {
                         <b><b>Tábla méretek:</b></b>
                         <br></br>Általában 1020x2020 mm a járatos, de ettől eltérő méretek is előfordulnak, illetve vágatokat is rendelhetők!
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Sárgaréz vastag lemezek"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -100,6 +103,7 @@ export default function SargarezTermekek() {
                         <b><b>Szálhossz:</b></b>
                         <br></br>Általában 3000 mm a járatos, de ettől eltérő méretek is előfordulnak, illetve vágatokat is rendelhetők!
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Sárgaréz rúd (kör)"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -126,6 +130,7 @@ export default function SargarezTermekek() {
                         <b><b>Szálhossz:</b></b>
                         <br></br>Általában 3000 mm a járatos, de ettől eltérő méretek is előfordulnak, illetve vágatokat is rendelhetők!
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Sárgaréz lapos"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -152,6 +157,7 @@ export default function SargarezTermekek() {
                         <b><b>Szálhossz:</b></b>
                         <br></br>Általában 3000 mm a járatos, de ettől eltérő méretek is előfordulnak, illetve vágatokat is rendelhetők!
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Sárgaréz rúd (négyzet)"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -178,6 +184,7 @@ export default function SargarezTermekek() {
                         <b><b>Szálhossz:</b></b>
                         <br></br>Általában 3000 mm a járatos, de ettől eltérő méretek is előfordulnak, illetve vágatokat is rendelhetők!
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Sárgaréz rúd (hatszög)"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -200,6 +207,7 @@ export default function SargarezTermekek() {
                         <b><b>Átmérő:</b></b>
                         <br></br>0,3 mm-től 10,0 mm-ig
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Sárgaréz huzal"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -226,6 +234,7 @@ export default function SargarezTermekek() {
                         <b><b>Szálhossz:</b></b>
                         <br></br>Általában 3000 mm a járatos, de ettől eltérő méretek is előfordulnak, illetve vágatokat is rendelhetők!
                     </Par>
+                    <AjanlatkeresButton classname={'self-start'} link={"Sárgaréz cső"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 

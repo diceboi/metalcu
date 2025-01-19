@@ -1,18 +1,19 @@
 "use client";
 
+import { useState } from "react";
 import Container from "./UI/Container";
 import H1 from "./UI/Typo/H1";
 import H2 from "./UI/Typo/H2";
 import H3 from "./UI/Typo/H3";
-import Image from "next/image";
-import Link from "next/link";
-import Smalltitle from "./UI/Typo/Smalltitle";
-import Mainbutton from "./UI/Buttons/Mainbutton";
-
-import { motion } from "framer-motion";
 import Par from "./UI/Typo/Par";
 
 export default function VorosrezInner() {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
     <section className="w-full px-4">
       <div className="container m-auto border-x border-b border-dashed border-[--grey-border] relative lg:px-0 px-4">
@@ -22,7 +23,13 @@ export default function VorosrezInner() {
           </div>
           <div className="flex flex-col gap-8">
             <div className="flex flex-col gap-4">
-              <Par>
+              <div
+                className={`flex flex-col gap-4 overflow-hidden transition-all duration-300 ${
+                  isExpanded ? "max-h-full" : "max-h-40"
+                }`}
+                aria-expanded={isExpanded}
+              >
+                <Par>
                 Réz (Cuprum) vegyjele: Cu, neve Ciprus szigetének nevéből
                 származik, amely már az ókorban fontos rézlelőhely volt.
                 A réz folyamatosan 100%-ban újrahasznosítható anélkül, hogy
@@ -60,6 +67,16 @@ export default function VorosrezInner() {
                 és csőszerelvények készülnek belőle, ekkor csekély ónt, 4-5%
                 mangánt és általában kis mértékben vasat tartalmaznak.
               </Par>
+              </div>
+              {!isExpanded && (
+                <div className="absolute bottom-24 left-0 w-full h-32 bg-gradient-to-t from-[--lightgrey] to-transparent pointer-events-none"></div>
+              )}
+              <button
+                onClick={toggleExpand}
+                className="mt-4 text-[--primary-color] underline focus:outline-none z-10"
+              >
+                {isExpanded ? "Kevesebb megjelenítése" : "Több megjelenítése"}
+              </button>
             </div>
           </div>
         </div>

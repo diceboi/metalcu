@@ -1,18 +1,19 @@
 "use client";
 
+import { useState } from "react";
 import Container from "./UI/Container";
 import H1 from "./UI/Typo/H1";
 import H2 from "./UI/Typo/H2";
 import H3 from "./UI/Typo/H3";
-import Image from "next/image";
-import Link from "next/link";
-import Smalltitle from "./UI/Typo/Smalltitle";
-import Mainbutton from "./UI/Buttons/Mainbutton";
-
-import { motion } from "framer-motion";
 import Par from "./UI/Typo/Par";
 
 export default function SargarezInner() {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
     <section className="w-full px-4">
       <div className="container m-auto border-x border-b border-dashed border-[--grey-border] relative lg:px-0 px-4">
@@ -22,7 +23,13 @@ export default function SargarezInner() {
           </div>
           <div className="flex flex-col gap-8">
             <div className="flex flex-col gap-4">
-              <Par>
+              <div
+                className={`flex flex-col gap-4 overflow-hidden transition-all duration-300 ${
+                  isExpanded ? "max-h-full" : "max-h-40"
+                }`}
+                aria-expanded={isExpanded}
+              >
+                <Par>
                 A sárgaréz korrózióálló, jó alakítható, hajlítható, mélyhúzható
                 színesfém. Legfőbb felhasználási területe az elektronika ipar,
                 építőipar (díszítés, burkolás). Sárgaréz a réz és cink ötvözete.
@@ -65,6 +72,16 @@ export default function SargarezInner() {
               <Par>Melegen sajtolható, jól forgácsolható ötvözet</Par>
               <H3>CuZn4oSi</H3>
               <Par>Alkalmazható forraszanyagként.</Par>
+              </div>
+              {!isExpanded && (
+                <div className="absolute bottom-24 left-0 w-full h-32 bg-gradient-to-t from-[--lightgrey] to-transparent pointer-events-none"></div>
+              )}
+              <button
+                onClick={toggleExpand}
+                className="mt-4 text-[--primary-color] underline focus:outline-none z-10"
+              >
+                {isExpanded ? "Kevesebb megjelenítése" : "Több megjelenítése"}
+              </button>
             </div>
           </div>
         </div>
@@ -72,3 +89,4 @@ export default function SargarezInner() {
     </section>
   );
 }
+

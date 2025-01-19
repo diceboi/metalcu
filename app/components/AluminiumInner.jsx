@@ -1,28 +1,35 @@
 "use client";
 
+import { useState } from "react";
 import Container from "./UI/Container";
 import H1 from "./UI/Typo/H1";
 import H2 from "./UI/Typo/H2";
 import H3 from "./UI/Typo/H3";
-import Image from "next/image";
-import Link from "next/link";
-import Smalltitle from "./UI/Typo/Smalltitle";
-import Mainbutton from "./UI/Buttons/Mainbutton";
-
-import { motion } from "framer-motion";
 import Par from "./UI/Typo/Par";
 
-export default function AluminiumInner() {
+export default function VorosrezInner() {
+  const [isExpanded, setIsExpanded] = useState(false);
+
+  const toggleExpand = () => {
+    setIsExpanded(!isExpanded);
+  };
+
   return (
     <section className="w-full px-4">
       <div className="container m-auto border-x border-b border-dashed border-[--grey-border] relative lg:px-0 px-4">
         <div className="flex flex-col gap-8 py-16 lg:px-8">
           <div className="flex lg:flex-row flex-col justify-start gap-8 items-baseline z-10 border-b border-[--grey-border]">
-            <H2>Az aluminium</H2>
+            <H2>Aluminium</H2>
           </div>
           <div className="flex flex-col gap-8">
             <div className="flex flex-col gap-4">
-              <Par>
+              <div
+                className={`flex flex-col gap-4 overflow-hidden transition-all duration-300 ${
+                  isExpanded ? "max-h-full" : "max-h-40"
+                }`}
+                aria-expanded={isExpanded}
+              >
+                <Par>
                 Az oxigén és a szilícium után az alumínium a földkéreg harmadik
                 leggyakoribb eleme. A földkéreg 7,5%-a alumínium és csak 5%-a
                 vas. Annak ellenére, hogy számos fém - köztük a vas is - már az
@@ -127,6 +134,16 @@ export default function AluminiumInner() {
                 általában 3004-es ötvözettel burkolják be őket a lyukkorrózióval
                 szembeni ellenállásuk javítására.
               </Par>
+              </div>
+              {!isExpanded && (
+                <div className="absolute bottom-24 left-0 w-full h-32 bg-gradient-to-t from-[--lightgrey] to-transparent pointer-events-none"></div>
+              )}
+              <button
+                onClick={toggleExpand}
+                className="mt-4 text-[--primary-color] underline focus:outline-none z-10"
+              >
+                {isExpanded ? "Kevesebb megjelenítése" : "Több megjelenítése"}
+              </button>
             </div>
           </div>
         </div>
@@ -134,3 +151,4 @@ export default function AluminiumInner() {
     </section>
   );
 }
+

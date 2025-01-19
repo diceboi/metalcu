@@ -9,6 +9,7 @@ import Link from "next/link";
 import Smalltitle from "./UI/Typo/Smalltitle";
 import Mainbutton from "./UI/Buttons/Mainbutton";
 import ProductTile from "./UI/ProductTile";
+import AjanlatkeresButton from "./UI/Buttons/AjanlatkeresButton";
 
 import { motion } from "framer-motion";
 import Par from "./UI/Typo/Par";
@@ -52,6 +53,7 @@ export default function AcelTermekek() {
                     <b><b>Tábla méretek:</b></b>
                     <br></br>1000x2000, 1250x2500, 1500x3000mm
                   </Par>
+                  <AjanlatkeresButton classname={'self-start'} link={"Hidegen hengerelt lemezek"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -82,6 +84,7 @@ export default function AcelTermekek() {
                     <b><b>Mérettartomány:</b></b>
                     <br></br>Szélesség: 1000-3300mm, Hosszúság: 2000-18000mm
                   </Par>
+                  <AjanlatkeresButton classname={'self-start'} link={"Melegen hengerelt lemezek, durvalemezek"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -112,6 +115,7 @@ export default function AcelTermekek() {
                     <b><b>Mérettartomány:</b></b>
                     <br></br>Szélesség: 1000-1500mm, Hosszúság: 2000-3000mm
                   </Par>
+                  <AjanlatkeresButton classname={'self-start'} link={"Melegen hengerelt lemezek, durvalemezek"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -142,6 +146,7 @@ export default function AcelTermekek() {
                     <b><b>Szálhosszúságok:</b></b>
                     <br></br>3-12 méter
                   </Par>
+                  <AjanlatkeresButton classname={'self-start'} link={"Zártszelvények"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -172,6 +177,7 @@ export default function AcelTermekek() {
                     <b><b>Szálhosszúságok:</b></b>
                     <br></br>6-12 méter
                   </Par>
+                  <AjanlatkeresButton classname={'self-start'} link={"Csövek (varrat nélküli szerkezeti, nyomástartó)"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -194,6 +200,7 @@ export default function AcelTermekek() {
                     <b><b>Szálhossz:</b></b>
                     <br></br>6-18,1 méter
                   </Par>
+                  <AjanlatkeresButton classname={'self-start'} link={"EURO szelvények, tartók"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 
@@ -220,6 +227,7 @@ export default function AcelTermekek() {
                     <b><b>Szálhosszúságok:</b></b>
                     <br></br>6-12 méter
                   </Par>
+                  <AjanlatkeresButton classname={'self-start'} link={"Idomacélok (kör, négyzet, lapos)"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
 

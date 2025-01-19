@@ -5,6 +5,7 @@ import H3 from "./Typo/H3";
 import Par from "./Typo/Par";
 import Image from "next/image";
 import Link from "next/link";
+import AjanlatkeresButton from "./Buttons/AjanlatkeresButton";
 
 export default function ProductSheet({ children }) {
   return (
