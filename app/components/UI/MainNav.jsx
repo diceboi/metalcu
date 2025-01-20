@@ -117,7 +117,7 @@ export default function MainNav() {
                 <BsSearch className="absolute top-1/2 -translate-y-1/2 right-[30px] w-4 h-4"/>
             </div>*/}
 
-          <div className="flex flex-nowrap self-end">
+          {/**  Shop menük  ***<div className="flex flex-nowrap self-end">
             <div className="flex flex-col items-center justify-center border-x border-[--grey-border]">
               <button className="flex flex-col items-center justify-center hover:bg-[--lightgrey-hover] lg:min-h-[75px] min-h-[50px] lg:min-w-[75px] min-w-[50px] transition-all duration-400">
                 <BsPerson className="w-5 h-5" />
@@ -129,7 +129,7 @@ export default function MainNav() {
                 <BsCart2 className="w-5 h-5" />
               </button>
             </div>
-          </div>
+          </div>*/}
         </div>
       </nav>
 

@@ -73,7 +73,7 @@ export default function TermekekInner() {
               "absolute bottom-8 left-0 z-20 text-black p-4 bg-[--lightgrey]"
             }
           >
-            Aluminium
+            Alumínium
           </H3>
         </Link>
       </motion.div>

@@ -55,7 +55,7 @@ export default function AluminiumTermekek() {
                   </Par>
                   <Par>
                     <b>
-                      <b>Gyakori minőségek:</b>
+                      <b>Minőségek:</b>
                     </b>
                     <br></br>EN AW-1050A (Al99,5); EN AW-5005A (AlMg1); EN
                     AW-5083 (AlMg4,5Mn0,7); EN AW-5754 (AlMg3); EN AW-6082
@@ -121,7 +121,7 @@ export default function AluminiumTermekek() {
                   </Par>
                   <Par>
                     <b>
-                      <b>Gyakori minőségek:</b>
+                      <b>Minőségek:</b>
                     </b>
                     <br></br> EN AW-5083 (AlMg4,5Mn0,7); EN AW-5754 (AlMg3); EN
                     AW-6082 (AlSi1MgMn);
@@ -173,7 +173,7 @@ export default function AluminiumTermekek() {
                   </Par>
                   <Par>
                     <b>
-                      <b>Gyakori minőségek:</b>
+                      <b>Minőségek:</b>
                     </b>
                     <br></br>EN AW-5754 (AlMg3); EN AW-1050A (Al99,5);
                   </Par>
@@ -369,7 +369,7 @@ export default function AluminiumTermekek() {
                   </Par>
                   <Par>
                     <b>
-                      <b>Gyakori minőségek:</b>
+                      <b>Minőségek:</b>
                     </b>
                     <br></br>EN AW-6060 T66 (AlMgSi0,5 F22)
                   </Par>
@@ -410,7 +410,7 @@ export default function AluminiumTermekek() {
                   </Par>
                   <Par>
                     <b>
-                      <b>Gyakori minőségek:</b>
+                      <b>Minőségek:</b>
                     </b>
                     <br></br>EN AW-6060 (AlMgSi05); EN AW-6082 (AlSi1MgMn); EN
                     AW-2007 (AlCu4PbMgMn);
@@ -453,7 +453,7 @@ export default function AluminiumTermekek() {
                   </Par>
                   <Par>
                     <b>
-                      <b>Gyakori minőségek:</b>
+                      <b>Minőségek:</b>
                     </b>
                     <br></br>EN AW-6060 (AlMgSi0,5); EN AW-6082 (AlSi1MgMn);
                   </Par>

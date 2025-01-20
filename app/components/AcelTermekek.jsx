@@ -197,7 +197,7 @@ export default function AcelTermekek() {
                     <br></br>HEA, HEB, HEM EURONORM 53-62; IPE, IPN, UPN DIN 1025 szerint
                   </Par>
                   <Par>
-                    <b><b>Szálhossz:</b></b>
+                    <b><b>Szálhosszúságok:</b></b>
                     <br></br>6-18,1 méter
                   </Par>
                   <AjanlatkeresButton classname={'self-start'} link={"EURO szelvények, tartók"}>Ajánlatkérés</AjanlatkeresButton>

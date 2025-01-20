@@ -36,7 +36,7 @@ export default function VorosrezTermekek() {
                   />
                 </div>
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
-                    <H3 className="pb-4">Vörösréz lemez, LEMEZVÁGAT, szalag</H3>
+                    <H3 className="pb-4">Vörösréz lemez, lemezvágat, szalag</H3>
                     <Par>
                         <b><b>Gyakori minőségek:</b></b>
                         <br></br>SE-Cu; E-Cu; SF-Cu;
@@ -65,7 +65,7 @@ export default function VorosrezTermekek() {
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Vastag lemezek</H3>
                     <Par>
-                        <b><b>Leggyakoribb minőségek:</b></b>
+                        <b><b>Minőségek:</b></b>
                         <br></br>SF-Cu, E-Cu 57, OF-Cu
                     </Par>
                     <Par>
@@ -92,7 +92,7 @@ export default function VorosrezTermekek() {
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Vörösréz rúd (kör)</H3>
                     <Par>
-                        <b><b>Leggyakoribb minőségek:</b></b>
+                        <b><b>Minőségek:</b></b>
                         <br></br>E-Cu 57, OF-Cu, CuTeP
                     </Par>
                     <Par>
@@ -119,7 +119,7 @@ export default function VorosrezTermekek() {
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Vörösréz lapos</H3>
                     <Par>
-                        <b><b>Leggyakoribb minőségek:</b></b>
+                        <b><b>Minőségek:</b></b>
                         <br></br>E-Cu 57, OF-Cu
                     </Par>
                     <Par>
@@ -146,7 +146,7 @@ export default function VorosrezTermekek() {
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Vörösréz rúd (négyzet)</H3>
                     <Par>
-                        <b><b>Leggyakoribb minőségek:</b></b>
+                        <b><b>Minőségek:</b></b>
                         <br></br>E-Cu 57, OF-Cu
                     </Par>
                     <Par>
@@ -173,7 +173,7 @@ export default function VorosrezTermekek() {
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Vörösréz rúd (hatszög)</H3>
                     <Par>
-                        <b><b>Leggyakoribb minőségek:</b></b>
+                        <b><b>Minőségek:</b></b>
                         <br></br>E-Cu 57
                     </Par>
                     <Par>
@@ -200,7 +200,7 @@ export default function VorosrezTermekek() {
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Vörösréz cső</H3>
                     <Par>
-                        <b><b>Leggyakoribb minőségek:</b></b>
+                        <b><b>Minőségek:</b></b>
                         <br></br>SF-Cu
                     </Par>
                     <Par>

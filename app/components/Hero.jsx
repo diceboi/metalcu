@@ -83,13 +83,6 @@ export default function Hero() {
             bottom: 0,
             left: "50%",
           }}
-          whileHover={{
-            translateY: "10%",
-            opacity: "100%",
-            translateX: "-50%",
-            bottom: 0,
-            left: "50%",
-          }}
           src="/hero.webp"
           alt="Metált bírod?"
           width={1280}

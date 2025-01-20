@@ -38,7 +38,7 @@ export default function SargarezTermekek() {
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Sárgaréz lemezek</H3>
                     <Par>
-                        <b><b>Leggyakoribb minőségek:</b></b>
+                        <b><b>Minőségek:</b></b>
                         <br></br>CuZn37, CuZn20, CuZn15, CuZn39Pb2
                     </Par>
                     <Par>
@@ -65,7 +65,7 @@ export default function SargarezTermekek() {
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Sárgaréz vastag lemezek</H3>
                     <Par>
-                        <b><b>Leggyakoribb minőségek:</b></b>
+                        <b><b>Minőségek:</b></b>
                         <br></br>CuZn37, CuZn39Pb2
                     </Par>
                     <Par>
@@ -92,7 +92,7 @@ export default function SargarezTermekek() {
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Sárgaréz rúd (kör)</H3>
                     <Par>
-                        <b><b>Leggyakoribb minőségek:</b></b>
+                        <b><b>Minőségek:</b></b>
                         <br></br>CuZn39Pb3, CuZn40Pb2, CuZn36Pb2As, CuZn33Pb1,5AlAs
                     </Par>
                     <Par>
@@ -119,7 +119,7 @@ export default function SargarezTermekek() {
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Sárgaréz lapos</H3>
                     <Par>
-                        <b><b>Leggyakoribb minőségek:</b></b>
+                        <b><b>Minőségek:</b></b>
                         <br></br>CuZn39Pb3, CuZn40Pb2
                     </Par>
                     <Par>
@@ -146,7 +146,7 @@ export default function SargarezTermekek() {
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Sárgaréz rúd (négyzet)</H3>
                     <Par>
-                        <b><b>Leggyakoribb minőségek:</b></b>
+                        <b><b>Minőségek:</b></b>
                         <br></br>CuZn39Pb3
                     </Par>
                     <Par>
@@ -173,7 +173,7 @@ export default function SargarezTermekek() {
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Sárgaréz rúd (hatszög)</H3>
                     <Par>
-                        <b><b>Leggyakoribb minőségek:</b></b>
+                        <b><b>Minőségek:</b></b>
                         <br></br>CuZn39Pb3, CuZn36Pb2As
                     </Par>
                     <Par>
@@ -200,7 +200,7 @@ export default function SargarezTermekek() {
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Sárgaréz huzal</H3>
                     <Par>
-                        <b><b>Leggyakoribb minőségek:</b></b>
+                        <b><b>Minőségek:</b></b>
                         <br></br>CuZn37
                     </Par>
                     <Par>
@@ -223,7 +223,7 @@ export default function SargarezTermekek() {
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Sárgaréz cső</H3>
                     <Par>
-                        <b><b>Leggyakoribb minőségek:</b></b>
+                        <b><b>Minőségek:</b></b>
                         <br></br>CuZn37
                     </Par>
                     <Par>

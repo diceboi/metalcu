@@ -6,7 +6,7 @@ import AluminiumTermekek from '@/app/components/AluminiumTermekek'
 export default function AluminiumPage() {
   return (
     <>
-    <MainHero title={"Aluminium"} subtitle={""} image={"/aluminium-hero.webp"}/>
+    <MainHero title={"Alumínium"} subtitle={""} image={"/aluminium-hero.webp"}/>
     <AluminiumInner />
     <AluminiumTermekek />
     </>

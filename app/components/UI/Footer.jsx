@@ -1,14 +1,39 @@
+"use client"
+
 import Image from "next/image"
 import Par from "./Typo/Par"
 import H3 from "./Typo/H3"
+import H2 from "./Typo/H2"
 import Label from "./Typo/Label"
 import Link from "next/link"
 import { TbArrowBigRightLines, TbAnchor, TbPhone, TbMail, TbUsersGroup, TbClock  } from "react-icons/tb";
 import { MdOutlinePayment } from "react-icons/md";
 import GoogleMaps from "../GoogleMaps"
 
+import { useContext } from "react"
+import { Context } from "@/app/Context"
+import Modal from "./Modal"
+
 export default function Footer() {
+
+    const { openPopup, togglePopup, form, setForm } = useContext(Context)
+
   return (
+    <>
+    <Modal openstate={openPopup === "fizetesi-modok"} onClose={() => togglePopup(null)}>
+        <>
+        {form === 'fizetesi-modok' && (
+            <div className="flex flex-col gap-4">
+                <H2 classname={"text-center"}>Fizetési módok</H2>
+                <ul className="flex flex-col gap-2 marker:text-[--orange] list-disc ml-6">
+                    <li>Készpénz</li>
+                    <li>Előreutalás</li>
+                    <li>Halasztott fizetés előzetes hitelbírálat alapján</li>
+                </ul>
+            </div>
+        )}
+        </>  
+    </Modal>
     <section className="w-full py-16 mt-16 bg-[--grey]">
         <div className="container m-auto px-4">
             <div className="grid lg:grid-cols-5 grid-cols-1 lg:gap-16 gap-8">
@@ -39,7 +64,11 @@ export default function Footer() {
                     </div>
 
                     <ul className="flex flex-col justify-start gap-2 ">
-                        <li><Link href={"/"}><Label classname={"hover:text-white cursor-pointer"}>Fizetési módok</Label></Link></li>
+                        <li><button onClick={() => {setForm('fizetesi-modok'), togglePopup("fizetesi-modok")}}><Label classname={"hover:text-white cursor-pointer"}>Fizetési módok</Label></button></li>
+
+
+
+
                         <li><Link href={"/"}><Label classname={"hover:text-white cursor-pointer"}>ÁSZF</Label></Link></li>
                         <li><Link href={"/"}><Label classname={"hover:text-white cursor-pointer"}>Adatkezelési tájékoztató</Label></Link></li>
                     </ul>
@@ -53,7 +82,7 @@ export default function Footer() {
                     <ul className="flex flex-col justify-start gap-2 ">
                         <li><Link href={"https://www.lme.com/en/Metals/Non-ferrous"} target="__blank"><Label classname={"hover:text-white cursor-pointer"}>London Metal Exchange</Label></Link></li>
                         <li><Link href={"https://www.mnb.hu/arfolyamok"} target="_-blank"><Label classname={"hover:text-white cursor-pointer"}>Deviza árfolyamok</Label></Link></li>
-                        <li><Link href={"/kapcsolat"}><Label classname={"hover:text-white cursor-pointer"}>Kapcsolat</Label></Link></li>
+                        <li><Link href={"/kapcsolat"}><Label classname={"hover:text-white cursor-pointer"}>Írjon nekünk</Label></Link></li>
                     </ul>
                 </div>
                 <div className="flex flex-col gap-8">
@@ -80,5 +109,6 @@ export default function Footer() {
             </div>
         </div>
     </section>
+    </>
   )
 }
