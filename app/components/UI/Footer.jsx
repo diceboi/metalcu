@@ -93,7 +93,7 @@ export default function Footer() {
                     <div className="flex flex-col gap-2">
                         <div className="flex flex-nowrap gap-2 items-center">
                             <TbPhone className=" bg-[--cream-25] min-w-5 min-h-5 p-1 rounded-full"/>
-                            <a href="tel:+36301234567"><Label classname={" hover:text-white cursor-pointer"}>+36 30 123 4567</Label></a>
+                            <a href="tel:+36 70 626 6066"><Label classname={" hover:text-white cursor-pointer"}>+36 70 626 6066</Label></a>
                         </div>
                         <div className="flex flex-nowrap gap-2 items-center">
                             <TbMail className=" bg-[--cream-25] min-w-5 min-h-5 p-1 rounded-full"/>
