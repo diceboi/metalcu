@@ -21,7 +21,7 @@ export default function Szolgatltatasok() {
           <div className="flex lg:flex-row flex-col gap-8 items-baseline z-10">
             <H2>Szolgáltatások</H2>
             <H3 classname={"opacity-50"}>
-              Állunk rendelkezésedre.
+              Állunk rendelkezésédre.
             </H3>
           </div>
 

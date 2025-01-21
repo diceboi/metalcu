@@ -54,7 +54,6 @@ export default function MainHero({ title, subtitle, image }) {
     </div>
     <section className="w-full px-4 overflow-hidden">
         <div className='relative container m-auto border-x border-r border-l border-t border-[--grey-border] border-dashed shadow-special-1 rounded-t-xl lg:px-0'>
-                <Smalltitle classname={"absolute lg:block hidden lg:bottom-32 bottom-28 lg:-right-24 -right-24 -rotate-90 z-20"}>{subtitle}</Smalltitle>
                 <H1 classname={"text-center absolute lg:top-8 top-4 lg:left-8 left-4 z-20"}>{title}</H1>
             <div className='w-full grid lg:grid-cols-8 grid-cols-4 grid-rows-5 xl:min-h-[500px] lg:min-h-[400px] min-h-[100px]'>
               <div className='lg:min-w-[100px] lg:min-h-[100px] min-h-[50px] grid-cols-1 grid-rows-1 border-r border-b border-dashed border-[--grey-border]'></div>

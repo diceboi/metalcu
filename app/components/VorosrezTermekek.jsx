@@ -38,7 +38,7 @@ export default function VorosrezTermekek() {
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Vörösréz lemez, lemezvágat, szalag</H3>
                     <Par>
-                        <b><b>Gyakori minőségek:</b></b>
+                        <b><b>Minőségek:</b></b>
                         <br></br>SE-Cu; E-Cu; SF-Cu;
                     </Par>
                     <Par>
@@ -74,7 +74,7 @@ export default function VorosrezTermekek() {
                     </Par>
                     <Par>
                         <b><b>Tábla méretek:</b></b>
-                        <br></br>Általában 1020x2020 mm vagy a járatos, de ettől eltérő méretek is előfordulnak, illetve vágatok is rendelhetők!
+                        <br></br>Általában 1020x2020 mm a járatos, de ettől eltérő méretek is előfordulnak, illetve vágatok is rendelhetők!
                     </Par>
                     <AjanlatkeresButton classname={'self-start'} link={"Vastag lemezek"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
@@ -230,14 +230,6 @@ export default function VorosrezTermekek() {
                 </div>
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                     <H3 className="pb-4">Bronz rudak, perselyek</H3>
-                    <Par>
-                        <b><b>Termékleírás:</b></b>
-                        <br></br>Elterjedt alapanyaga a gépiparnak, tengelyek, csapágyházak, csúszó lapok, perselyek alapanyagaként használják.
-                    </Par>
-                    <Par>
-                        <b><b>Felhasználási területek:</b></b>
-                        <br></br>Szerszámgyártás, gépészet.
-                    </Par>
                     <Par>
                         <b><b>Gyakori minőségek:</b></b>
                         <br></br>CuSn7ZnPb7-C (G7); CuSn12-C (G12); CuSn11Pb2-C

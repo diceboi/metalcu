@@ -38,23 +38,6 @@ export default function AluminiumTermekek() {
                   <H3 className="pb-4">Hidegen hengerelt lemezek, szalagok</H3>
                   <Par>
                     <b>
-                      <b>Termékleírás:</b>
-                    </b>
-                    <br></br>Az alumínium lemezek előnyei más fémtermékekkel
-                    szemben: Kitűnő mechanikai tulajdonság, kitűnő
-                    korrózióállóság, jó hegeszthetőség, kis fajlagos súly (acél
-                    harmada), újrahasznosítható.
-                  </Par>
-                  <Par>
-                    <b>
-                      <b>Felhasználási területek:</b>
-                    </b>
-                    <br></br>Gépipar, élelmiszeripar, külső - belső építészet,
-                    építőipar, vegyipar, járműipar (autó, repülő, vasút, hajó),
-                    reklámipar.
-                  </Par>
-                  <Par>
-                    <b>
                       <b>Minőségek:</b>
                     </b>
                     <br></br>EN AW-1050A (Al99,5); EN AW-5005A (AlMg1); EN
@@ -107,20 +90,6 @@ export default function AluminiumTermekek() {
                   <H3 classname="pb-4">Melegen hengerelt lemezek, szalagok</H3>
                   <Par>
                     <b>
-                      <b>Termékleírás:</b>
-                    </b>
-                    <br></br> Úgynevezett vastag lemezek.
-                  </Par>
-                  <Par>
-                    <b>
-                      <b>Felhasználási területek:</b>
-                    </b>
-                    <br></br> Szerszámgyártás, gépgyártás, hajógyártás,
-                    tartálygyártás, autóipar, elektromos ipar, csomagoló ipar,
-                    orvosi műszergyártás.
-                  </Par>
-                  <Par>
-                    <b>
                       <b>Minőségek:</b>
                     </b>
                     <br></br> EN AW-5083 (AlMg4,5Mn0,7); EN AW-5754 (AlMg3); EN
@@ -155,22 +124,6 @@ export default function AluminiumTermekek() {
                 </div>
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                   <H3 className="pb-4">Mintás lemezek</H3>
-                  <Par>
-                    <b>
-                      <b>Termékleírás:</b>
-                    </b>
-                    <br></br>Az alumínium lemezek előnyei más fémtermékekkel
-                    szemben: Kitűnő mechanikai tulajdonság, kitűnő
-                    korrózióállóság, jó hegeszthetőség, kis fajlagos súly (acél
-                    harmada), újrahasznosítható.
-                  </Par>
-                  <Par>
-                    <b>
-                      <b>Felhasználási területek:</b>
-                    </b>
-                    <br></br>járó - lépcsőlapok, gépjármű felépítmények,
-                    reklámipar, belsőépítészet, dobozgyártás.
-                  </Par>
                   <Par>
                     <b>
                       <b>Minőségek:</b>
@@ -222,18 +175,6 @@ export default function AluminiumTermekek() {
                   <H3 className="pb-4">Stukko lemezek</H3>
                   <Par>
                     <b>
-                      <b>Termékleírás:</b>
-                    </b>
-                    <br></br>Közkedvelt belsőépítészeti alapanyag.
-                  </Par>
-                  <Par>
-                    <b>
-                      <b>Felhasználási területek:</b>
-                    </b>
-                    <br></br>Hűtőgép gyártás, dobozgyártás, belsőépítészet.
-                  </Par>
-                  <Par>
-                    <b>
                       <b>Standard lemez méretek:</b>
                     </b>
                     <br></br>Vastagság: 0,4 - 1,2mm; Táblaméretek: 1000x2000mm -
@@ -260,22 +201,6 @@ export default function AluminiumTermekek() {
                 </div>
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                   <H3 className="pb-4">Lyukasztott lemezek</H3>
-                  <Par>
-                    <b>
-                      <b>Termékleírás:</b>
-                    </b>
-                    <br></br>Alapanyaga lehet alumínium, rozsdamentes, acél,
-                    horganyzott acél, nemes acél.
-                  </Par>
-                  <Par>
-                    <b>
-                      <b>Perforált lemez felhasználási területei:</b>
-                    </b>
-                    <br></br>Állványok, álmennyezetek, lépcsőkorlátok,
-                    kerítések, kapuk, erkélyrácsok, védőburkolatok,
-                    padlóburkolatok, lámpaernyők, konvektorok, szűrők,
-                    szellőzők, kipufogók, különböző panelek stb.
-                  </Par>
                   <Par>
                     <b>
                       <b>Típusok:</b>
@@ -363,12 +288,6 @@ export default function AluminiumTermekek() {
                   </H3>
                   <Par>
                     <b>
-                      <b>Felhasználási terület:</b>
-                    </b>
-                    <br></br>Reklámipar, bútoripar, műszeripar, járműipar stb.
-                  </Par>
-                  <Par>
-                    <b>
                       <b>Minőségek:</b>
                     </b>
                     <br></br>EN AW-6060 T66 (AlMgSi0,5 F22)
@@ -402,12 +321,6 @@ export default function AluminiumTermekek() {
                 </div>
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                   <H3 className="pb-4">Rudak (lapos, négyzet, kör, hatszög)</H3>
-                  <Par>
-                    <b>
-                      <b>Felhasználási terület:</b>
-                    </b>
-                    <br></br>Járműipar, gépgyártás, építőipar.
-                  </Par>
                   <Par>
                     <b>
                       <b>Minőségek:</b>
@@ -444,13 +357,6 @@ export default function AluminiumTermekek() {
                 </div>
                 <div className="flex flex-col gap-2 lg:w-2/3 w-full">
                   <H3 className="pb-4">Alakos (speciális) profilok</H3>
-                  <Par>
-                    <b>
-                      <b>Termékleírás:</b>
-                    </b>
-                    <br></br>Bármilyen egyedi profil megrajzolását és gyártását
-                    vállaljuk, minimum 500 kg mennyiség megrendelése esetén.
-                  </Par>
                   <Par>
                     <b>
                       <b>Minőségek:</b>
