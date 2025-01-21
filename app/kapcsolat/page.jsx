@@ -21,7 +21,7 @@ export default function KapcsolatPage() {
       const mailOptions = {
         from: formData.email,
         to: 'szasz.szabolcs1995@gmail.com',
-        subject: 'Üzenet a weboldalról',
+        subject: `Új üzenet a weboldalról ${formData.name} részéről`,
         text: `Név: ${formData.name}\nEmail: ${formData.email}\nTelefonszám: ${formData.phone}\nTermék: ${formData.product}\n\nÜzenet: ${formData.message}`,
         html: '',
       }
