@@ -58,19 +58,7 @@ export default function VorosrezInner() {
               </Par>
               <Par>
                 Az alumínium meleg- illetve hidegalakíthatósága kitűnő, ezért
-                sokféle nyitott, zárt alakú profil sajtolható belőle. Széles
-                körű felhasználhatósága az ipar számos területén
-                hasznosítható. A melegen és hidegen hengerelt alumíniumlemezek
-                felhasználási lehetőségei rendkívül sokrétűek, ami főleg a kis
-                tömeggel, a jó korrózióállósággal, a jó felületi minőséggel,
-                valamint megfelelő mechanikai tulajdonságokkal teszi sokrétűen
-                felhasználható termékké.
-              </Par>
-              <Par>
-                Az alumínium meleg- illetve hidegalakíthatósága kitűnő, ezért
-                sokféle nyitott, zárt alakú profil sajtolható belőle. Széles
-                körű felhasználhatósága az ipar számos területén
-                hasznosítható. A melegen és hidegen hengerelt alumíniumlemezek
+                sokféle nyitott, zárt alakú profil sajtolható belőle. A melegen és hidegen hengerelt alumíniumlemezek
                 felhasználási lehetőségei rendkívül sokrétűek, ami főleg a kis
                 tömeggel, a jó korrózióállósággal, a jó felületi minőséggel,
                 valamint megfelelő mechanikai tulajdonságokkal teszi sokrétűen
@@ -97,8 +85,8 @@ export default function VorosrezInner() {
               <Par>
                 Mangán tartalmú ötvözetek. Ezt a csoportot jó általános
                 korrózióállóság és mérsékelt szilárdság jellemzi. A sorozat
-                legelterjedtebb tagja, a 3003-as számú ötvözet alakítható,
-                könnyen hegeszthető és széles körben használják tartályok,
+                legelterjedtebb tagja, a 3003-as számú ötvözet, könnzen alakítható és
+                hegeszthető és széles körben használják tartályok,
                 hőcserélő alkatrészek és ipari folyamatok csővezetékei
                 gyártására.
               </Par>

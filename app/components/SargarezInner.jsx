@@ -31,14 +31,11 @@ export default function SargarezInner() {
               >
                 <Par>
                 A sárgaréz korrózióálló, jó alakítható, hajlítható, mélyhúzható
-                színesfém. Legfőbb felhasználási területe az elektronika ipar,
+                színesfém. Legfőbb felhasználási területe az elektronikai ipar,
                 építőipar (díszítés, burkolás). Sárgaréz a réz és cink ötvözete.
                 1-7% cink csak halványvörössé, 7-14% cink vöröses-sárgává,
                 14-17% cink pedig tiszta sárgává változtatja a vörösréz színét.
-                30%-ig az ötvözet sárga színű marad. 30%-on túl kezd vörösödni,
-                úgy hogy az 50% cinket és rezet tartalmazó ötvözet aranysárga
-                színű. 50%-on túl az ötvözet kezd fehéredni és mindinkább a cink
-                színét ölti fel. Hidegen legnyújthatóbb a sárgaréz, ha 15-20%
+                Hidegen legnyújthatóbb a sárgaréz, ha 15-20%
                 cinket tartalmaz. Ez az ötvözet melegen nem munkálható meg. Ha a
                 cink 35-40%-nyi mennyiségben van jelen, az ötvözet melegen és
                 hidegen egyaránt nyújtható, még több cinkkel a nyújthatóság

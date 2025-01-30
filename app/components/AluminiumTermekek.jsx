@@ -144,20 +144,6 @@ export default function AluminiumTermekek() {
                     <br></br>max. 2000mm szélességig; max. 12000mm hosszúságig.
                     Kérjen ajánlatot munkatársainktól.
                   </Par>
-                  <Par>
-                    <b>
-                      <b>Standard szalag méret:</b>
-                    </b>
-                    <br></br>Vastagság: 0,5 - 3,5 mm-ig; Szélességek: 1000mm;
-                    1250mm; 1500mm;
-                  </Par>
-                  <Par>
-                    <b>
-                      <b>Egyedi szalag méretek:</b>
-                    </b>
-                    <br></br>max. 2000mm szélességig. Kérjen ajánlatot
-                    munkatársainktól.
-                  </Par>
                   <AjanlatkeresButton classname={'self-start'} link={"Mintás lemezek"}>Ajánlatkérés</AjanlatkeresButton>
                 </div>
               </ProductSheet>
@@ -239,10 +225,8 @@ export default function AluminiumTermekek() {
                   </Par>
                   <Par>
                     <b>
-                      <b>Expandált lemez felhasználási területek:</b>
+                      <b>Expandált lemezek:</b>
                     </b>
-                    <br></br>Korlátok, lépcsők, vásári standok, homlokzatok,
-                    árnyékolás technika stb.
                   </Par>
                   <Par>
                     <b>

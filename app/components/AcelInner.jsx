@@ -102,21 +102,6 @@ export default function AcelInner() {
                   acéloké.
                 </Par>
                 <Par>
-                  - Az alkalmazott dezoxidálási módszer alapján. Csillapítatlan
-                  acél: jó kihozatalú, felületi minősége jó, hidegen jól
-                  alakíthatók. Gyorsan öregszenek, max. 0,25% karbont tartalmaz.
-                  Csillapított acélok: az oxigént szilárd halmazállapotú
-                  vegyületeket képző elemhez kötik. Kisebb a szennyezők
-                  dúsulása, a kihozatal rosszabb, az oxidok egy része
-                  zárványként visszamarad. Vákuumos kezeléssel az oxigén gáz
-                  formájában távozik, nem keletkeznek zárványok. Különlegesen
-                  csillapított acélok: dezoxidálás során nitrogént lekötő és
-                  szemcsefinomító hatású dezoxidálószereket (Al, V, Nb, Ti) is
-                  alkalmaznak. Ezek öregedésállóbbak és ridegtörési hajlamuk
-                  kisebb, mint a csak Si-mal és Mn-nal csillapított ötvözetlen
-                  acéloké.
-                </Par>
-                <Par>
                   - Szövetszerkezetük alapján, melyek általában vegyesen
                   fordulnak elő: Egyensúlyi szövetszerkezetük alapján
                   megkülönböztetünk ferrites, félferrites, hipoeutektoidos,

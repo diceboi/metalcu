@@ -49,14 +49,8 @@ export default function FeluletkezelesInner() {
                 keménysége a fürdő hőmérsékletétől és a használt sav
                 milyenségétől függ. Az anodizálás előtt a megmunkálandó
                 ötvözetet megtisztítjuk forró áztató, vagy oldószeres fürdőben
-                (rendszerint nátrium-hidroxidban). Az anodizáló fürdőben a
-                feszültség hatására oxigén keletkezik, mely reagál az anódként
-                használt fémmel és porózus réteget hoz létre a felületén.
-                Lényeges lépés a folyamat végén a pórusok tömítése. A
-                korrózióállóságot, a színtartósságot a tömítettség erősen
-                befolyásolja. A tömítés történhet forróvízben vagy
-                nikkel-fluorid oldatban. Az európai szabványok itt 5-10-15-20-25
-                mikrométeres szabványos réteget írnak elő.
+                (rendszerint nátrium-hidroxidban). Az európai szabványok 5-10-15-20-25
+                mikrométeres rétegvastagságokat írnak elő.
               </Par>
             </div>
           </div>
