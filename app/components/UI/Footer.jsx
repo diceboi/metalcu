@@ -59,7 +59,7 @@ export default function Footer() {
                 szerződő felet, illetve „Termék” alatt az egyes szállítási
                 szerződésekben értékesített terméket - a Szállító által
                 importált és Magyarországon forgalmazott színesfém és
-                acél-félgyártmányok és egyéb termékek - kell érteni.[]
+                acél-félgyártmányok és egyéb termékek - kell érteni.
               </Par>
               <Par>
                 2. A jelen ÁSZF keretében a Szállító kötelezettséget vállal
@@ -459,7 +459,7 @@ export default function Footer() {
                 Megrendelő ilyen irányú kérése esetén kizárólag a Megrendelő
                 költségére történhet.
               </Par>
-              <H3>IX. Szavatosság, felelősség</H3>
+              <H3>IX. Kellékszavatosság, jogszavatosság</H3>
               <Par>
                 1. A Szállító által forgalmazott Termék minőségéért a mindenkor
                 hatályos jogszabályok szerinti, vagy a gyártó által
@@ -514,6 +514,11 @@ export default function Footer() {
                 darabolás, beépítés).
               </Par>
               <Par>
+                Nem érvényesíthető kellékszavatosság a Szállítóval szemben abban
+                az esetben, ha a Terméket a Megrendelő feldolgozta (pl.
+                darabolás, beépítés).
+              </Par>
+              <Par>
                 4. Az olyan Termék tekintetében, amelyet a Szállító az eseti
                 szerződésnek megfelelően kifejezetten értékcsökkent (II.
                 osztályú, hibás stb.) termékként értékesít, a Szállító
@@ -535,7 +540,7 @@ export default function Footer() {
                 rendelkezései szerint minden igénytől és tehertől mentesen
                 teljes mértékben átad a Megrendelő részére.
               </Par>
-              <H3>X. Vis major</H3>
+              <H3>X. Vis maior</H3>
               <Par>
                 1. Vis maior események, melyek a Szállítót vagy bármely
                 beszállítóját érintik, feljogosítják a Szállítót arra, hogy az
@@ -570,12 +575,6 @@ export default function Footer() {
                 1. A jelen ÁSZF a magyar jog alapján készült. A jelen ÁSZF-ben
                 nem szabályozott kérdésekben a mindenkori magyar jogszabályok
                 rendelkezései alkalmazandóak.
-              </Par>
-              <H3>XIV. Incoterms</H3>
-              <Par>
-                1. A Felek ellenkező rendelkezése hiányában az érintett
-                szerződéses feltételek értelmezésénél az INCOTERMS 2010 ICC
-                meghatározásai érvényesek.
               </Par>
               <Par>
                 2. A Felek az eseti szerződésből eredően közöttük felmerült
@@ -665,8 +664,15 @@ export default function Footer() {
                 Megrendelő 10.000.- EUR + ÁFA összegű átalánydíjat köteles a
                 Szállító részére fizetni.
               </Par>
-              <Label>Biatorbágy, 2025. fabruár 5.</Label>
-              <Label>MetAlCu Trade Kft.</Label>
+              <H3>XVI. Egyéb</H3>
+              <Par>
+                1. A Szállító a jelen ÁSZF módosításának jogát fenntartja. A
+                Szállító és a Megrendelő között létrejött jogviszonyra az eseti
+                szerződés létrejötte napján hatályos ÁSZF rendelkezései az
+                irányadók. A Szállító a hatályos ÁSZF szövegét honlapján -
+                https://www.metalcu.hu/ - teszi közzé, megjelölve a közzététel
+                napját.
+              </Par>
             </div>
           )}
 
