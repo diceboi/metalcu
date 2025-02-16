@@ -1648,7 +1648,7 @@ export default function Footer() {
                     }}
                   >
                     <Label classname={"hover:text-white cursor-pointer"}>
-                      Tanusítványok
+                      Tanúsítványok
                     </Label>
                   </button>
                 </li>
