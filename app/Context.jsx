@@ -16,8 +16,8 @@ export const Context = createContext({
 
 export default function ContextProvider({ children }) {
   const [isSideMenuOpen, setIsSideMenuOpen] = useState(false);
-  const [openPopup, setOpenPopup] = useState(null);
-  const [form, setForm] = useState('login');
+  const [openPopup, setOpenPopup] = useState("csod");
+  const [form, setForm] = useState('csod');
 
   /* Side menu */
   const toggleSideMenu = () => {

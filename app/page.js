@@ -4,6 +4,7 @@ import Termekek from "./components/Termekek"
 import Szolgatltatasok from "./components/Szolgaltatasok"
 import Velemenyek from "./components/Velemenyek"
 
+
 export default function Home() {
   return (
     <>

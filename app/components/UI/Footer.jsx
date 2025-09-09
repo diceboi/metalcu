@@ -17,7 +17,7 @@ import {
 import { MdOutlinePayment } from "react-icons/md";
 import GoogleMaps from "../GoogleMaps";
 
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { Context } from "@/app/Context";
 import Modal from "./Modal";
 
@@ -1567,6 +1567,78 @@ export default function Footer() {
                 height={1000}
                 alt="Tanusítvány"
               />
+            </div>
+          )}
+
+          {form === "csod" && (
+            <div className="flex flex-col gap-4">
+              <H3>Tisztelt Hitelezők!</H3>
+              <Par>
+                A MetAlCu Trade Kereskedelmi és Szolgálató Korlátolt Felelősségű Társaság „
+csődeljárás alatt” (székhely: 1055 Budapest, Bihari János utca 13, cégjegyzékszám: 01-09-
+438707, adószám: 24836577-2-41) Adós a csődeljárásról és a felszámolási eljárásról szóló 1991.
+évi XLIX. törvény (a továbbiakban: Csődtv.) az alábbiakról értesíti Önöket.
+              </Par>
+              <Par>
+                A Fővárosi Törvényszék 39.Cspk.6/2025/5. sz. végzésével elrendelte a „MetAlCu Trade Kft.”
+„cs.a.” Adós csődeljárásának közzétételét a Cégközlönyben.
+              </Par>
+              <Par>
+                A közzététel időpontja és egyben a csődeljárás kezdő időpontja: 2025. 09. 02.
+              </Par>
+              <Par>
+                A „MetAlCu Trade Kft.” „cs.a.” Adós felhívja a hitelezőit arra, hogy a Csődtv 10. § (2) bekezdés f)
+pontjában meghatározottak szerin a fennálló követeléseiket a csődeljárás elrendeléséről szóló végzés
+közzétételétől számított 30 napon belül - a csődeljárás kezdő időpontját követően keletkező
+követeléseiket pedig 8 munkanapon belül - jelentsék be a „MetAlCu Trade Kft.” „cs.a.” Adós és a
+bíróság által kirendelt vagyonfelügyelő, LAPIDIUM Reorg Felszámoló, Végelszámoló,
+Vagyonrendező és Csődkezelő Korlátolt Felelősségű Társaság (székhely: 1135 Budapest,
+Csata utca 25. Fszt, elektronikus levelezési cím: lapidiumreorg@gmail.com ) részére, a
+követelés nyilvántartásba vételéért fizetendő díjat ezzel egyidejűleg fizessék be a vagyonfelügyelő
+MBH Bank Nyrt.-nél vezetett 10103661-51436800-02005004 számú pénzforgalmi számlájára, a
+közlemény rovatban „MetAlCu Trade Kft. csa nyilvántartásba vételi díj” feltüntetésével,
+valamint csatolják a követeléseiket megalapozó okiratokat.
+              </Par>
+              <Par>
+                A fenti határidők - a hitelezői igény bejelentésének, illetve a nyilvántartásba vételi díj megfizetésének
+határidőn belül történő - elmulasztása esetén a követelés nyilvántartásba vételére nem kerül sor.
+              </Par>
+              <Par>
+                A követelés nyilvántartásba vételének feltétele az is, hogy a hitelező annak 1%-át, de legalább 10.000
+forintot és legfeljebb 200 000 forintot nyilvántartásba-vételi díjként befizessen a vagyonfelügyelő
+pénzforgalmi számlájára.
+              </Par>
+              <Par>
+                A Csődtv 11. § (1) bekezdése szerinti követeléseket, a 3. § (1) bekezdés g) pont szerinti függő
+követeléseket, továbbá - a folyamatban lévő peres és nemperes eljárásokban, közigazgatási hatósági
+eljárásokban az adóssal szemben támasztott igényeket kivéve - az adós számviteli törvény szerinti
+függő kötelezettségeivel összefüggő azon igényeket, amelyekkel összefüggésben jövőbeli eseménytől
+függ, hogy keletkezik az adós számára fizetési kötelezettség, még nem kell bejelenteni.
+              </Par>
+              <Par>
+                Az Adós a hitelezővel 2025. november 26 napján 11 órai kezdettel, 1055 Budapest, Bihari János
+utca 13. sz. alatt csődegyezségi tárgyalást tart, amelyre a társaság hitelezőit ezúton is meghívja.
+Az esetleges külföldi székhelyű, külföldi lakóhellyel rendelkező hitelezőket felhívjuk kézbesítési
+megbízott igénybevételére.
+              </Par>
+              <Par>
+                Tájékoztatjuk a hitelezőket, hogy a reorganizációs program és az egyezségi javaslat, valamint a
+csődeljárásról és a felszámolási eljárásról szóló 1991. évi XLIX. törvény (a továbbiakban: Cstv.)
+8. § (2) bekezdésében és a 14. § (1) bekezdésében felsorolt iratokat 2025. 11. 17. napjától
+munkanapokon előre egyeztetett időpontban megtekinthető, az Adós székhelyén.
+              </Par>
+              <Par>
+                Budapest, 2025. 09. 02.
+              </Par>
+              <Par>
+                Tisztelettel:
+              </Par>
+              <Par>
+                MetAlCu Trade Kft. .” cs.a.” Adós
+              </Par>
+              <Par>
+Cene András ügyvezető
+              </Par>
             </div>
           )}
         </>
